@@ -1,17 +1,18 @@
 package Entidades;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Parcela {
-    private Date data;
+    private LocalDate data;
     private Double valor;
 
-    public Parcela(Date data, Double valor) {
+    public Parcela(LocalDate data, Double valor) {
         this.data = data;
         this.valor = valor;
     }
 
-    public Date getData() {
+    public LocalDate getData() {
         return data;
     }
 

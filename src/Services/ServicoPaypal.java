@@ -1,6 +1,4 @@
-package Entidades;
-
-import Services.ServicoPagamentoOnline;
+package Services;
 
 public class ServicoPaypal implements ServicoPagamentoOnline {
 
